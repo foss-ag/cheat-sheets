@@ -1,0 +1,8 @@
+# Set nice value of running process to 15 via pid
+renice -n 15 -p [pid]
+
+# Set nice value of running process to 15 via gid
+renice -n 15 -g [gid]
+
+# Set nice value of running process to 15 via uid
+renice -n 15 -u [uid]

@@ -1,0 +1,2 @@
+# add user to group
+sudo usermod -ag [user] [group]

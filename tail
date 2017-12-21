@@ -1,0 +1,8 @@
+# Show last 10 lines of [file]
+tail [file]
+
+# Show last 40 lines of [file]
+tail -n 40 [file]
+
+# Show last 10 lines of [file] and wait while it grows
+tail -f [file]

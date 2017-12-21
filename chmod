@@ -1,0 +1,15 @@
+# Change rights of files and directories
+# Give all rights to group, user and others
+chmod a=rwx path/to/file
+
+# Take execute right from group and others
+chmod g-x,o-x pat/to/file
+
+# Set u=rwx, g=rw- and o=r--
+chmod u=rwx,g=rw,o=r path/to/file
+
+# Give others write access
+chmod o+w path/to/file
+
+# Change access rights of all sub-folders and files in directory
+chmod -R

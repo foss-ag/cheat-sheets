@@ -1,0 +1,6 @@
+# Show first 10 lines of [file]
+head [file]
+
+
+# Show first 40 lines of [file]
+head -n 40 [file]

@@ -1,0 +1,11 @@
+# Delete file
+rm path/to/file
+
+# Delete directory
+rm -r path/to/dir
+
+# Delete without asking [default]
+rm -f path/to/file
+
+# Delete with asking
+rm -i path/to/file

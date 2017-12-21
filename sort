@@ -1,0 +1,8 @@
+# Sort lines of text file
+sort path/to/file
+
+# Reverse the output
+sort -r path/to/file
+
+# Check if file is already sorted
+sort -c path/to/file

@@ -1,0 +1,6 @@
+# Search for file
+find path/to/search/on -name [name_of_file]
+
+# Search for file that ends with txt
+find path/to/search/on -regex ".*txt"
+

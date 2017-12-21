@@ -1,0 +1,17 @@
+# IP-address
+ip addr
+
+# IPv4-address
+ip -4 addr
+
+# IPv6-address
+ip -6 addr
+
+# Network device
+ip link
+
+# Routing table entry
+ip route
+
+# Multicast adress
+ip maddress

@@ -1,0 +1,5 @@
+# Change owner of the file
+chown [user] path/to/file
+
+# Change owner for all sub-folders and sub-files
+chown -R [user] path/to/file

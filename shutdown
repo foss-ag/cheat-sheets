@@ -1,0 +1,8 @@
+# Reboot
+shutdown -r
+
+# poweroff
+shutdown -P
+
+# halt
+shutdown -h

@@ -1,0 +1,12 @@
+# Concatenates and shows files
+# Show file
+cat path/to/file
+
+# Concat two files
+cat path/to/file/one/ path/to/file/two
+
+# Concat two .tar archives 
+cat path/to/archive_one.tar path/to/archive_two.tar
+
+# Show line numbers
+cat -n

@@ -1,0 +1,8 @@
+# Run process with nice value of 10
+nice [command]
+
+# Run process with nice value of 7
+nice -n 7 [command]
+
+# Run process with nice value -7
+sudo nice -n -7 [command]

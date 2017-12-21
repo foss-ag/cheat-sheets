@@ -1,0 +1,14 @@
+# Change current directory
+cd path/to/other/location
+
+# Change current directory to home-directory
+cd ~
+
+# Change current directory to home-directory of [user]
+cd ~[user]
+
+# Change current directory to parent-directory
+cd ..
+
+# Change current directory to parent-parent-directory
+cd ../..

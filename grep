@@ -1,0 +1,20 @@
+# Get all lines that contain [regex]
+grep [regex] path/to/file
+
+# Get just the matching parts of the lines
+grep -o [regex] path/to/file
+
+# Get number of matching lines
+grep -c [regex] path/to/file
+
+# Get only lines that matches completely
+grep -x [regex] path/to/file
+
+# Searching for a fixed string
+grep -F [regex] path/to/file
+
+# Invert match making
+grep -v [regex] path/to/file
+
+# Get Regex out of file
+grep -f path/to/regex_file/ path/to/file

@@ -1,0 +1,2 @@
+# Delete [group]
+sudo groupdel [group]

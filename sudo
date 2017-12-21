@@ -1,0 +1,12 @@
+# super user do
+# Run [command] in super user mode
+sudo [command]
+
+# Run [command] with rights of [user]
+sudo -u [user] [command]
+
+# Run [command] in super user mode and move to background
+sudo -b [command]
+
+# Open file for editing as super user and create backup
+sudo -e path/to/file

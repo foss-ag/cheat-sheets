@@ -1,0 +1,5 @@
+# Create directory
+mkdir new_directory
+
+# Create directory and parent-directory if missing
+mkdir path/to/new/directory

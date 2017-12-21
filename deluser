@@ -1,0 +1,2 @@
+# Remove [user] from [group]
+sudo deluser [user] [group]

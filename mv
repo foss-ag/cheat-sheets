@@ -1,0 +1,14 @@
+# Move file     
+move path/to/file new/path
+
+# Move with asking bevor overwriting
+mv -i
+
+# Move without overwriting
+mv -n
+
+# Create symbolic link instead of file
+mv -s path/to/file new/path
+
+# Rename file
+mv path/to/file path/to/file2
