@@ -1,0 +1,53 @@
+# Create new repository
+git init
+
+# Clone/Checkout a repository
+git clone repo_address
+
+# Set git username
+git config --global user.name "new_username"
+
+# Set git mail address
+git config --global user.email "new_mail_address"
+
+# List files that have been changed local
+git status
+
+# Fetch and merge all changes on the remote server to your local working directory
+git pull
+
+# View all merge conflicts
+git diff
+
+# Add files for staging
+git add file_name(s)
+
+# Commit changes to Head but not remote repository
+git commit -m "commit_message"
+
+# Push commited changes to server
+git push
+
+# Create new branch
+git checkout -b branch_name
+
+# Delete branch
+git branch -d branch_name
+
+# Push branch to remote server
+git push origin branch_name
+
+# Delete branch on remote server
+git push origin :branch_name
+
+# Change current branch
+git checkout branch_name
+
+# List all branches
+git branch
+
+# Merge a branch to your current branch
+git merge another_branch_name
+
+# Drop all local changes
+git reset --hard origin/master
